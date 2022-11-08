@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta  http-equiv="X-UA-Compatible" content="=IE=edge">
+        <meta  nane=" viewport" content="width=device-width, initial-scale=1.0">
+        <title> Register Form </title>
+    </head>
+    <body>
+        <form> 
+            <!-- text , email & password-->
+            <div>
+                <label> Enter First Name : </label>
+                <input type="text" name="FirstName" placeholder="Enter first name" required minlength="2" maxlength="12">
+            </div>
+            <!-- Age -->
+            <div>
+                <label> Enter Age :</label>
+                <input type=" number " name ="age">
+            </div>
+
+            <div>
+                <label> Enter Last Name : </label>
+                <input type="text" name="LastName" placeholder="Enter last name" required minlength="2" maxlength="12">
+            </div>
+
+            <div>
+                <label> Enter Email Id : </label>
+                <input type="email" name="email" placeholder="Enter Email Id" required>
+            </div>
+            <div>
+                <label > password</label>
+                <input type="password" name="=password" placeholder="Enter Password" required minlength="8" maxlength="12">
+            </div>
+
+            <div>
+                <label> Select Gender </label>
+                <input type="radio" name ="Gender"> Male
+                <input type="radio" name ="Gender"> Female
+                <input type="radio" name ="Gender" checked> Other
+            </div>
+
+            <div>
+            <label> Select City </label>
+            <select>
+                <option> </option>
+                <option> Bailhongal</option>
+                <option> Belagavi</option>
+                <option> Hubli</option>
+                <option> Banglore</option>
+            </select>
+        </div>
+  
+
+    <!-- dateofBirth , mobileNumber, address-->
+    <div>
+        <label> Select Date Of Birth </label>
+        <input type ="date" name="dateofBirth">
+    </div>
+
+    <div>
+        <label> Enter Moblie Number </label>
+        <input type ="tel" name="mobileNumber" placeholder="+91 9345678909">
+    </div>
+
+    <div>
+        <label> Enter Address </label>
+        <textarea rows ="10" close="10"> </textarea>
+    </div>
+    <!-- Naukri Website -->
+    <div>
+        <label> Select File/Resume</label>
+        <input type="file" name="uploadFile">
+    </div>
+
+    <div>
+        <label for =" "> Select Course </label>
+        <input type="checkbox">Java
+        <input type="checkbox">Html
+        <input type="checkbox">Css
+        <input type="checkbox">Js
+        <input type="checkbox" disabled>Python
+
+    </div>
+
+
+    <div>
+    <!--<input type="Submit"-->
+    <button type="Submit"> Submit  </button>
+    <button type="reset"> Reset  </button>
+    </div>
+
+    <!-- Validation -->
+
+</form>
+</body>
+
+    </html>
