@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Cascading </title>
+
+        
+        <!-- 2. External file-->
+        <style>
+        <!-- 	1. element Selector
+        -->
+        <!--
+        h1{
+            color: red;
+            font-size : 100px;
+            text-transform: uppercase;
+        }
+        
+        h2{
+            color: red;
+            font-size : 100px;
+            text-transform: uppercase;
+        } -->
+        <!-- 	2. Grouping Selector means we use this type when two property are of same type
+        
+        
+        -->
+        h1, h2{
+            color: red;
+            font-size : 100px;
+            text-transform: uppercase;
+        }
+        
+        .classSelector{
+            color : green;
+            font-size: 100px;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+        
+        
+
+        </head>
+        <body>
+            <!-- resuability -->
+            <h1> Cascading style </h1>
+            <h1> element Selector /h1>
+            <h2>  Grouping Selector </h2>
+            <h1 class="classSelector"> Class Selector /h1>
+            <!-- priority -->
+            
+            <!-- <h1>Cascading Stylesheet </h1> css - size : 200px -lowercase
+                <h1>Cascading Stylesheet </h1> css - color  -lowercase
+            -->
+            <!--
+                different Selector
+                1. element Selector -- one element property
+                2. Grouping Selector -- 
+                3. Class Selector -- 
+            -->
+            <!--
+            -->
+        </body>
+        
+        </html>
+        
+
+
+
+
+
+
+
+
+
+
+<!---syntax for CSS - Casacading Style Sheet
+::selection
+{
+    property : value;
+}
+-->

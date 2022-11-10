@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    font-size : 100px;
+    text-transform: uppercase;
+}
+
+h2{
+    color: red;
+    font-size : 100px;
+    text-transform: uppercase;
+} -->
+
+h1, h2{
+    color: red;
+    font-size : 100px;
+    text-transform: uppercase;
+}
+
+.classSelector{
+    color : green;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+#header {
+    color: aqua;
+    font-size: 100px;
+
+}
+
